@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include "main.h"
+#include <ctype>
 
 /**
  * _isupper - checks if parameter is an uppercase character.
@@ -7,7 +8,7 @@
  */
 int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
+	if (isupper)
 	{
 		return (1);
 	}
