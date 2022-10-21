@@ -8,7 +8,7 @@
  */
 int _isupper(int c)
 {
-	if (isupper)
+	if (isupper(c))
 	{
 		return (1);
 	}
